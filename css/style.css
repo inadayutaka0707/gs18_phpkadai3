@@ -1,0 +1,359 @@
+body{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+}
+
+.index{
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.header{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.main{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.main input{
+    width: 200px;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.sextype input{
+    width: 30px;
+}
+
+.main select{
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.button input{
+    width: 100px;
+}
+
+.formMain{
+    width: 40%;
+    margin: auto;
+}
+
+.formMain p{
+    text-align: center;
+}
+
+.check tr{
+    width: 500px;
+}
+
+.check th{
+    width: 200px;
+    border-right: 1px solid gray;
+}
+
+.check td{
+    width: 300px;
+    padding-left: 10px;
+}
+
+.check p{
+    text-align: center;
+}
+
+.formSab1 p{
+    text-align: center;
+}
+
+.formSab2{
+    width: 600px;
+    margin: auto;
+}
+
+.formSab{
+    width: 300px;
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+
+.formSab p{
+    text-align: center;
+}
+
+.formSab a{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.setPassword{
+    padding-top: 100px;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+.button1 input{
+    width: 100px;
+    float:right;
+}
+
+.tweet input{
+    border: 0px solid;
+}
+
+.tweet{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding-top: 50px;
+    border: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.tweet img{
+    float: left;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.formleft{
+    display: block;
+    clear: both;
+    content: "";
+    float: left;
+    font-size: 20px;
+}
+
+.formcenter{
+    height: 70px;
+    padding: 25px 0;
+}
+
+.formcenter input{
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+.formright{
+    clear: both;
+    width: 15%;
+    margin: 10px 50px 0px auto;
+    margin-bottom: 10px;
+}
+
+.formright input{
+    width: 100%;
+    border-radius: 20px;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+}
+
+.formright input:hover{
+    cursor: pointer;
+}
+
+.tweet input,textarea{
+    border: 0px solid;
+    resize: none;
+}
+
+textarea {
+    float: left;
+    margin: 0 10px;
+    border: 0 none white;
+    border-bottom: 1px solid lightgray;
+    overflow: hidden;
+    padding: 0;
+    outline: none;
+    background-color: white;
+}
+
+.mainContent{
+    display: block;
+    content: "";
+    clear: both;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.mainContent p{
+    margin-left: 70px;
+    clear: both;
+}
+
+.mainContent h4{
+    float: left;
+    height: 50px;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 3;
+}
+
+.comment{
+    border-bottom: 1px solid lightgray;
+    clear: both;
+}
+
+
+.comment img{
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.othername{
+    padding-left: 10px;
+    line-height: 4.5;
+}
+
+.tweetbody{
+    width: 100%;
+    float: left;
+}
+
+.sectionleft{
+    position:fixed;
+    left: 100px;
+    top: 50px;
+}
+
+.sectioncenter{
+    margin: auto;
+    width: 50%;
+}
+
+.sectionright{
+    position:fixed;
+    right: 100px;
+    top: 50px;
+}
+
+.mainContent img{
+    float:left;
+    margin: 10px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+}
+
+.filehidden{
+    display: none;
+}
+
+.filelabel img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    color: #AAAAAA;
+    background-color: #006DD9;
+    border: double 4px #AAAAAA;
+}
+
+.filelabel:hover{
+    cursor: pointer;
+}
+
+.profilebody{
+    width: 100%;
+    text-align: center;
+}
+
+.profilebody form,a{
+    margin: auto;
+    width: 500px;
+}
+
+.content{
+    margin: 0 auto;
+    padding: 40px;
+}
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.modal__bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+
+#preview{
+    display: none;
+}
+
+.otherContent{
+    display: block;
+    content: "";
+    clear: both;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.othercomment{
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    clear: both;
+}
+
+.othercomment img{
+    width: 50px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.tweettitle{
+    font-family: serif;
+    border-bottom: 1px solid lightgray;
+}
+
+.comment span{
+    font-weight: 100;
+    font-size: 15px;
+    opacity: 0.5;
+}

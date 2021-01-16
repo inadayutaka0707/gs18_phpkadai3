@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="index">
+    <div class="header">
+        <h1>登録画面</h1>
+    </div>
+    <div class="main">
+        <form action="form.php" method="post">
+            <input type="text" name="name" id="name" placeholder="ニックネームをかいてね" required>
+            <br>
+            <input type="email" name="email" id="email" placeholder="メアドをかいてね" required>
+            <div class="sextype">
+                <p>性別<br>
+                    <input type="radio" name="sex" value="男性" checked>男性
+                    <input type="radio" name="sex" value="女性">女性
+                </p>
+            </div>
+            <select name="age">
+                <script>
+                var i;
+                for(i=10; i<100; i+=1){
+                document.write('<option value="'+i+'">'+i+'歳</option>');
+                }
+                </script>
+            </select>
+            <br>
+            <div class="button">
+                <input type="submit" value="登録">
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

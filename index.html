@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="index">
+    <div class="header">
+        <h1>ログイン</h1>
+    </div>
+    <div class="main">
+        <form action="login.php" method="post">
+            <input type="text" name="name" id="name" placeholder="登録名をかいてね" required>
+            <br>
+            <input type="password" name="password" id="password" placeholder="パスワードをかいてね">
+            <div class="button">
+                <input type="submit" value="ログイン">
+            </div>
+        </form>
+        <div class="button1">
+            <form action="save.html">
+                <input type="submit" value="新規登録">
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
